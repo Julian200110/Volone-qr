@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navbar-height: 65px;
+  --max-width-container: 100%;
+  --max-height-container: 100%;
+  --max-width-restaurantLogo: 60%;
+  zoom: 0;
+}
