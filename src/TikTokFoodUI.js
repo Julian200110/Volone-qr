@@ -406,16 +406,16 @@ const TikTokFoodUI = () => {
               <div className="relative flex items-center justify-center gap-12">
                 {/* Enlaces de navegación */}
                 <a className="text-white hover:text-[#E50051] flex items-center justify-center">
-                  <img className="w-7 h-7" src="/img/perfil.svg" alt="Perfil" />
+                  <img className="w-7 h-7" src="/img/Perfil.svg" alt="Perfil" />
                 </a>
                 <a className="text-white hover:text-[#E50051] flex items-center justify-center">
                   <img className="w-10 h-10" src="/img/Menu.svg" alt="Menú" />
                 </a>
                 <a className="text-white hover:text-[#E50051] flex items-center justify-center">
-                  <img className="w-7 h-7" src="/img/pedido.svg" alt="Pedido" />
+                  <img className="w-7 h-7" src="/img/Pedido.svg" alt="Pedido" />
                 </a>
                 <a className="text-white hover:text-[#E50051] flex items-center justify-center">
-                  <img className="w-7 h-7" src="/img/info.svg" alt="Info" />
+                  <img className="w-7 h-7" src="/img/Info.svg" alt="Info" />
                 </a>
               </div>
             </motion.nav>
