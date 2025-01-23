@@ -228,7 +228,7 @@ const TikTokFoodUI = () => {
     <>
       <GlobalStyles />
 
-      <div className="h-screen w-[415px] overflow-hidden bg-black text-white relative mx-auto">
+      <div className="h-screen w-full lg:w-[415px] overflow-hidden bg-black text-white relative mx-auto">
         {/* INTRO */}
         {showPrincipal ? (
           <div className="h-full w-full flex items-center justify-center">
@@ -323,7 +323,7 @@ const TikTokFoodUI = () => {
             {/* NAVEGACIÓN INFERIOR (ICONOS) */}
             <motion.nav
               className="fixed top-0 backdrop-blur-md bg-black/60
-                        w-full px-4 py-2 z-50 max-w-[415px] rounded-b-[13px]"
+                         px-4 py-2 z-50 w-full lg:w-[415px] rounded-b-[13px]"
               initial={{ y: 100 }}
               animate={{ y: 0 }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -401,7 +401,7 @@ const TikTokFoodUI = () => {
               initial={{ y: 100 }}
               animate={{ y: 0 }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
-              className="fixed bottom-0  w-full max-w-[415px] px-4 py-2 z-50 overflow-hidden mx-auto rounded-b-[13px] "
+              className="fixed bottom-0  w-full lg:w-[415px] px-4 py-2 z-50 overflow-hidden mx-auto rounded-b-[13px] "
             >
               <div className="relative flex items-center justify-center gap-12">
                 {/* Enlaces de navegación */}
